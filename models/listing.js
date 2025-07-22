@@ -16,7 +16,7 @@ const listingSchema = new Schema({
             type:String,
             default:"https://unsplash.com/photos/brown-tiger-close-up-photo-8Myh76_3M2U",
             set: (v) => v===""? "https://unsplash.com/photos/brown-tiger-close-up-photo-8Myh76_3M2U" : v,//We are setting some default value 
-        },
+        }, 
     },
     price:Number,
     location:String,
